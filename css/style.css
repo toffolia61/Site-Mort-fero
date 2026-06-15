@@ -1,12 +1,23 @@
 body{
+    justify-content: center;
+    text-align: center;
     background-image: url("https://wallpapers.com/images/hd/neymar-4k-splashed-paint-917vlvrqs3adyh1n.jpg") ;
-    
     background-size: cover;
+    border: #ffffff;
+    border-radius: 10px;
 }
 
-.container{
-    color: aliceblue;
+h1 {
+    color: #ffffff;
     border-radius: 20px;
     border-color: aqua;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    padding: 40px;
+            
+} 
+
+button {
     justify-content: center;
 }
