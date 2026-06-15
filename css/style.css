@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/neymar-4k-splashed-paint-917vlvrqs3adyh1n.jpg") ;
+    
+    background-size: cover;
+}
+
+.container{
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: aqua;
+    justify-content: center;
+}
