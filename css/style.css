@@ -1,23 +1,65 @@
 body{
-    justify-content: center;
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header{
+    background: linear-gradient(to right,#003366,#0066cc);
+    color: white;
     text-align: center;
-    background-image: url("https://wallpapers.com/images/hd/neymar-4k-splashed-paint-917vlvrqs3adyh1n.jpg") ;
-    background-size: cover;
-    border: #ffffff;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
-h1 {
-    color: #ffffff;
-    border-radius: 20px;
-    border-color: aqua;
-    text-align: center;
-    font-size: 50px;
-    background-color: black;
-    padding: 40px;
-            
-} 
+h2{
+    color: #003366;
+}
 
-button {
-    justify-content: center;
+.card{
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
