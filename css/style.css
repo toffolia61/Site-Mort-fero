@@ -5,7 +5,8 @@ body{
 }
 
 header{
-    background: linear-gradient(to right,#003366,#0066cc);
+    background: #7ddaff;
+background: linear-gradient(90deg,rgba(125, 218, 255, 1) 0%, rgba(18, 122, 163, 1) 50%, rgba(125, 218, 255, 1) 100%);
     color: white;
     text-align: center;
     padding: 20px;
@@ -40,7 +41,7 @@ section{
 }
 
 h2{
-    color: #003366;
+    color: #004386;
 }
 
 .card{
@@ -57,7 +58,7 @@ img{
 }
 
 footer{
-    background-color: #003366;
+    background-color: #055db4;
     color: white;
     text-align: center;
     padding: 15px;
