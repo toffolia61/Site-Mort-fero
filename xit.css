@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.informacoes,
+.formulario{
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+@media(max-width:768px){
+    header{
+        font-size: 14px;
+    }
+    button{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
