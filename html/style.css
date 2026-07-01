@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #dddddd;
+    overflow-x: hidden;
 }
 
 header{
@@ -66,10 +67,14 @@ img{
 }
 
 footer{
-    background-color: #2783ec;
+    background: #085370;
+    background: linear-gradient(90deg,rgba(8, 83, 112, 1) 0%, rgba(39, 168, 219, 1) 50%, rgba(8, 83, 112, 1) 100%);
     color: white;
     text-align: center;
     padding: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     margin-top: 20px;
 }
 
